@@ -1,0 +1,11 @@
+#端口
+server:
+  port: 8084
+spring:
+  application:
+    name: rabbitmq-receiver
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
